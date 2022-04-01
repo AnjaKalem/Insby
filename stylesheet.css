@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Bahnschrift';
+    src:url('../vezba_fetch/fonts/Bahnschrift.TTF')
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+:root {
+
+    --clr-primary-dark: #19182f;
+    --clr-primary-light: rgb(255, 255, 255);
+    
+    --ff-epilogue: 'Epilogue', sans-serif;
+    --fw-600: 600;
+    --fw-400: 400;
+    --fs-30: 1.875rem;
+
+    --ff-bahnschrift: 'Bahnschrift', sans-serif;
+
+    --ds-primary:  drop-shadow(0px 0px 53px 7px rgba(0,0,0,0.04));
+
+}
+
+
+header {
+    height: 8em;
+}
+
+
+.logo {
+    font-family: var(--ff-epilogue);
+    font-weight: var(--fw-600);
+    font-size: 3rem;
+    padding: 1.275em;
+}
+
+.login_button {
+  
+    position: fixed;
+    right: 2em;
+    top: 2em;
+    display: inline-block;
+    width: 114px;
+    height: 46px;
+    border: none;
+    border-radius: 40px;
+    color: var(--clr-primary-light);
+    background-color: #4d7bf4;
+    font-size: 1em;
+    font-family: var(--ff-epilogue);
+    font-weight: var(--fw-600);
+}
+
+
+
+.menu_wrapper {
+    width: 65%;
+    margin-left: 18vw;
+}
+
+
+.kategorija { 
+        display: block;
+        border: none;
+        border-bottom: 1px solid lightgray;
+        padding: 1em 2em 1em 1em;
+        background-color: var(--clr-primary-light);
+        color: var(--clr-primary-dark);
+        text-align: left;
+        text-decoration: none;
+        font-family: var(--ff-epilogue);
+        font-weight: var(--fw-600);
+        font-size: 1.575em;
+        width: 55%;
+}
+
+.kategorija:hover {
+    color: #4b5270;
+}
+
+
+.product_wrapper {
+    display: flex;
+    width: 55%;
+    height: 320px;
+    margin: 2em auto;
+    padding: 2em;
+
+    
+    border-radius: 40px ;
+
+    -webkit-box-shadow: 0px 0px 53px 7px rgba(0,0,0,0.04);
+    -moz-box-shadow: 0px 0px 53px 7px rgba(0,0,0,0.04);
+     box-shadow: 0px 0px 53px 7px rgba(0,0,0,0.04);
+}
+
+.text_wrapper {
+    flex-basis: 30%;
+}
+
+.product_image {
+    max-width: 400px;
+    max-height: 300px;
+    flex-basis: 60%;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    
+    -webkit-box-shadow: 0px 0px 53px 7px rgba(0,0,0,0.09);
+    -moz-box-shadow: 0px 0px 53px 7px rgba(0,0,0,0.09);
+     box-shadow: 0px 0px 53px 7px rgba(0,0,0,0.09);
+
+} 
+
+.product_price {
+    text-align: right;
+    font-family: 'Bahnschrift';
+    font-size: 24px;
+    color: #bbbebf;
+    margin-top: 12px;
+}
+
+.product_name {
+    text-align: right;
+    color : var(--clr-primary-dark) ;
+    font-family: var(--ff-epilogue);
+    font-weight: var(--fw-400);
+    font-size: 1.25rem;
+}
+
+/********************* ARROWS **********************/
+
+
+.arrow_right, .arrow_white {
+
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+
+    position: relative;
+    left: 21%;
+    top: 45px;
+
+    border: 3px solid black;
+    border-left: transparent;
+    border-bottom: none;
+
+    transform: rotate(45deg);
+}
+
+.arrow_down {
+
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+
+    position: relative;
+    left: 21%;
+    top: 45px;
+
+    border: 3px solid black;
+    border-left: transparent;
+    border-bottom: none;
+
+    transform: rotate(90deg);
+}
+
+.arrow_white {
+    border: 3px solid #626d84;
+    border-left: transparent;
+    border-bottom: transparent;
+}
+
+.arrow_dark {
+    border: 3px solid black;
+    border-left: transparent;
+    border-bottom: none;
+
+}
+

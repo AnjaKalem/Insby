@@ -1,0 +1,816 @@
+{
+    "data": [
+        {
+            "available": true,
+            "available_from": null,
+            "available_until": null,
+            "category_id": 28,
+            "category_name": "Sendvič",
+            "items": [
+                {
+                    "app_id": 4,
+                    "available": true,
+                    "available_online": true,
+                    "barcode": null,
+                    "deleted": false,
+                    "measuring_unit": {
+                        "decimal": false,
+                        "description": "Piece",
+                        "id": 33,
+                        "language_id": 10,
+                        "long_name": "komad",
+                        "short_name": "Kom",
+                        "unit": "pcs"
+                    },
+                    "product_variant_attributes": [],
+                    "product_variant_code": null,
+                    "product_variant_descriptions": [
+                        {
+                            "app_id": 4,
+                            "id": 506,
+                            "language_id": 10,
+                            "product_variant_id": 233,
+                            "tag": "name",
+                            "value": "Taxi sendvič"
+                        }
+                    ],
+                    "product_variant_id": 233,
+                    "product_variant_image_url": "d38bdbc0-e976-4ad1-aa4a-1745ff3c2162",
+                    "product_variant_images": [
+                        {
+                            "description": null,
+                            "image_url": "d38bdbc0-e976-4ad1-aa4a-1745ff3c2162",
+                            "language_id": 10,
+                            "ordinal": 0,
+                            "product_variant_image_id": 100,
+                            "product_variant_image_translation_id": 160,
+                            "tag": "RIMAGE"
+                        }
+                    ],
+                    "product_variant_name": "Taxi sendvič",
+                    "product_variant_price": {
+                        "app_id": 4,
+                        "bp": 0.0,
+                        "bv": 0.0,
+                        "currency_id": 11,
+                        "currency_sign": "RSD",
+                        "custom_1": null,
+                        "custom_2": null,
+                        "custom_3": null,
+                        "default_price": 480.0,
+                        "display_price": "480.00 RSD",
+                        "display_price_format": "{price} {sign}",
+                        "id": 89,
+                        "line_type": "R",
+                        "market_id": 9,
+                        "net_price": 400.0,
+                        "ordinal": null,
+                        "price": 480.0,
+                        "product_variant_id": 233,
+                        "valid_from": "2021-11-30T23:00:00.000000",
+                        "valid_until": null,
+                        "vat_id": 8
+                    },
+                    "product_variant_short_description": null,
+                    "rmci_id": 96,
+                    "show_in_app": true
+                }
+            ],
+            "show_in_app": true
+        },
+        {
+            "available": true,
+            "available_from": null,
+            "available_until": null,
+            "category_id": 29,
+            "category_name": "Tradicija",
+            "items": [
+                {
+                    "app_id": 4,
+                    "available": true,
+                    "available_online": true,
+                    "barcode": null,
+                    "deleted": false,
+                    "measuring_unit": {
+                        "decimal": false,
+                        "description": "Piece",
+                        "id": 33,
+                        "language_id": 10,
+                        "long_name": "komad",
+                        "short_name": "Kom",
+                        "unit": "pcs"
+                    },
+                    "product_variant_attributes": [],
+                    "product_variant_code": null,
+                    "product_variant_descriptions": [
+                        {
+                            "app_id": 4,
+                            "id": 507,
+                            "language_id": 10,
+                            "product_variant_id": 234,
+                            "tag": "short_description",
+                            "value": "Rebarca"
+                        },
+                        {
+                            "app_id": 4,
+                            "id": 508,
+                            "language_id": 10,
+                            "product_variant_id": 234,
+                            "tag": "name",
+                            "value": "Rebarca"
+                        }
+                    ],
+                    "product_variant_id": 234,
+                    "product_variant_image_url": "86081f53-ce22-4f6f-837c-b1ee503c1764",
+                    "product_variant_images": [
+                        {
+                            "description": null,
+                            "image_url": "86081f53-ce22-4f6f-837c-b1ee503c1764",
+                            "language_id": 10,
+                            "ordinal": 0,
+                            "product_variant_image_id": 101,
+                            "product_variant_image_translation_id": 161,
+                            "tag": "RIMAGE"
+                        }
+                    ],
+                    "product_variant_name": "Rebarca",
+                    "product_variant_price": {
+                        "app_id": 4,
+                        "bp": 0.0,
+                        "bv": 0.0,
+                        "currency_id": 11,
+                        "currency_sign": "RSD",
+                        "custom_1": null,
+                        "custom_2": null,
+                        "custom_3": null,
+                        "default_price": 780.0,
+                        "display_price": "780.00 RSD",
+                        "display_price_format": "{price} {sign}",
+                        "id": 88,
+                        "line_type": "R",
+                        "market_id": 9,
+                        "net_price": 650.0,
+                        "ordinal": null,
+                        "price": 780.0,
+                        "product_variant_id": 234,
+                        "valid_from": "2021-11-30T23:00:00.000000",
+                        "valid_until": null,
+                        "vat_id": 8
+                    },
+                    "product_variant_short_description": "Rebarca",
+                    "rmci_id": 97,
+                    "show_in_app": true
+                },
+                {
+                    "app_id": 4,
+                    "available": true,
+                    "available_online": true,
+                    "barcode": null,
+                    "deleted": false,
+                    "measuring_unit": {
+                        "decimal": false,
+                        "description": "Piece",
+                        "id": 33,
+                        "language_id": 10,
+                        "long_name": "komad",
+                        "short_name": "Kom",
+                        "unit": "pcs"
+                    },
+                    "product_variant_attributes": [],
+                    "product_variant_code": null,
+                    "product_variant_descriptions": [
+                        {
+                            "app_id": 4,
+                            "id": 519,
+                            "language_id": 10,
+                            "product_variant_id": 240,
+                            "tag": "short_description",
+                            "value": "Ćevapi, roštilj. kobasice, sv. vrat, uštipci od roštilj mesa, domaća tortilja, pomfrit"
+                        },
+                        {
+                            "app_id": 4,
+                            "id": 520,
+                            "language_id": 10,
+                            "product_variant_id": 240,
+                            "tag": "name",
+                            "value": "Pupinov mix sa grila"
+                        }
+                    ],
+                    "product_variant_id": 240,
+                    "product_variant_image_url": "eec38436-18ad-4f0f-92f9-c7b768d1def2",
+                    "product_variant_images": [
+                        {
+                            "description": null,
+                            "image_url": "eec38436-18ad-4f0f-92f9-c7b768d1def2",
+                            "language_id": 10,
+                            "ordinal": 0,
+                            "product_variant_image_id": 107,
+                            "product_variant_image_translation_id": 167,
+                            "tag": "RIMAGE"
+                        }
+                    ],
+                    "product_variant_name": "Pupinov mix sa grila",
+                    "product_variant_price": {
+                        "app_id": 4,
+                        "bp": 0.0,
+                        "bv": 0.0,
+                        "currency_id": 11,
+                        "currency_sign": "RSD",
+                        "custom_1": null,
+                        "custom_2": null,
+                        "custom_3": null,
+                        "default_price": 1610.0,
+                        "display_price": "1,610.00 RSD",
+                        "display_price_format": "{price} {sign}",
+                        "id": 95,
+                        "line_type": "R",
+                        "market_id": 9,
+                        "net_price": 1341.67,
+                        "ordinal": null,
+                        "price": 1610.0,
+                        "product_variant_id": 240,
+                        "valid_from": "2021-11-30T23:00:00.000000",
+                        "valid_until": null,
+                        "vat_id": 8
+                    },
+                    "product_variant_short_description": "Ćevapi, roštilj. kobasice, sv. vrat, uštipci od roštilj mesa, domaća tortilja, pomfrit",
+                    "rmci_id": 104,
+                    "show_in_app": true
+                }
+            ],
+            "show_in_app": true
+        },
+        {
+            "available": true,
+            "available_from": null,
+            "available_until": null,
+            "category_id": 30,
+            "category_name": "Pre svega",
+            "items": [
+                {
+                    "app_id": 4,
+                    "available": true,
+                    "available_online": true,
+                    "barcode": null,
+                    "deleted": false,
+                    "measuring_unit": {
+                        "decimal": false,
+                        "description": "Piece",
+                        "id": 33,
+                        "language_id": 10,
+                        "long_name": "komad",
+                        "short_name": "Kom",
+                        "unit": "pcs"
+                    },
+                    "product_variant_attributes": [],
+                    "product_variant_code": null,
+                    "product_variant_descriptions": [
+                        {
+                            "app_id": 4,
+                            "id": 504,
+                            "language_id": 10,
+                            "product_variant_id": 232,
+                            "tag": "short_description",
+                            "value": "Rolnice sa urnebesom sweetchily sosom"
+                        },
+                        {
+                            "app_id": 4,
+                            "id": 505,
+                            "language_id": 10,
+                            "product_variant_id": 232,
+                            "tag": "name",
+                            "value": "Rolnice sa urnebesom"
+                        }
+                    ],
+                    "product_variant_id": 232,
+                    "product_variant_image_url": "c7db915a-48f5-4d43-be4e-0dff96105c1a",
+                    "product_variant_images": [
+                        {
+                            "description": null,
+                            "image_url": "c7db915a-48f5-4d43-be4e-0dff96105c1a",
+                            "language_id": 10,
+                            "ordinal": 0,
+                            "product_variant_image_id": 99,
+                            "product_variant_image_translation_id": 159,
+                            "tag": "RIMAGE"
+                        }
+                    ],
+                    "product_variant_name": "Rolnice sa urnebesom",
+                    "product_variant_price": {
+                        "app_id": 4,
+                        "bp": 0.0,
+                        "bv": 0.0,
+                        "currency_id": 11,
+                        "currency_sign": "RSD",
+                        "custom_1": null,
+                        "custom_2": null,
+                        "custom_3": null,
+                        "default_price": 440.0,
+                        "display_price": "440.00 RSD",
+                        "display_price_format": "{price} {sign}",
+                        "id": 87,
+                        "line_type": "R",
+                        "market_id": 9,
+                        "net_price": 366.67,
+                        "ordinal": null,
+                        "price": 440.0,
+                        "product_variant_id": 232,
+                        "valid_from": "2021-11-30T23:00:00.000000",
+                        "valid_until": null,
+                        "vat_id": 8
+                    },
+                    "product_variant_short_description": "Rolnice sa urnebesom sweetchily sosom",
+                    "rmci_id": 98,
+                    "show_in_app": true
+                },
+                {
+                    "app_id": 4,
+                    "available": true,
+                    "available_online": true,
+                    "barcode": null,
+                    "deleted": false,
+                    "measuring_unit": {
+                        "decimal": false,
+                        "description": "Piece",
+                        "id": 33,
+                        "language_id": 10,
+                        "long_name": "komad",
+                        "short_name": "Kom",
+                        "unit": "pcs"
+                    },
+                    "product_variant_attributes": [],
+                    "product_variant_code": null,
+                    "product_variant_descriptions": [
+                        {
+                            "app_id": 4,
+                            "id": 509,
+                            "language_id": 10,
+                            "product_variant_id": 235,
+                            "tag": "short_description",
+                            "value": "Strani sirevi, pršuta, suve šljive rolovane pančetom, domaći hleb, čeri"
+                        },
+                        {
+                            "app_id": 4,
+                            "id": 510,
+                            "language_id": 10,
+                            "product_variant_id": 235,
+                            "tag": "name",
+                            "value": "Daska za ekipu"
+                        }
+                    ],
+                    "product_variant_id": 235,
+                    "product_variant_image_url": "9bec4c29-7ae5-43c9-914f-73ac49328a21",
+                    "product_variant_images": [
+                        {
+                            "description": null,
+                            "image_url": "9bec4c29-7ae5-43c9-914f-73ac49328a21",
+                            "language_id": 10,
+                            "ordinal": 0,
+                            "product_variant_image_id": 102,
+                            "product_variant_image_translation_id": 162,
+                            "tag": "RIMAGE"
+                        }
+                    ],
+                    "product_variant_name": "Daska za ekipu",
+                    "product_variant_price": {
+                        "app_id": 4,
+                        "bp": 0.0,
+                        "bv": 0.0,
+                        "currency_id": 11,
+                        "currency_sign": "RSD",
+                        "custom_1": null,
+                        "custom_2": null,
+                        "custom_3": null,
+                        "default_price": 1235.0,
+                        "display_price": "1,235.00 RSD",
+                        "display_price_format": "{price} {sign}",
+                        "id": 90,
+                        "line_type": "R",
+                        "market_id": 9,
+                        "net_price": 1029.17,
+                        "ordinal": null,
+                        "price": 1235.0,
+                        "product_variant_id": 235,
+                        "valid_from": "2021-11-30T23:00:00.000000",
+                        "valid_until": null,
+                        "vat_id": 8
+                    },
+                    "product_variant_short_description": "Strani sirevi, pršuta, suve šljive rolovane pančetom, domaći hleb, čeri",
+                    "rmci_id": 99,
+                    "show_in_app": true
+                },
+                {
+                    "app_id": 4,
+                    "available": true,
+                    "available_online": true,
+                    "barcode": null,
+                    "deleted": false,
+                    "measuring_unit": {
+                        "decimal": false,
+                        "description": "Piece",
+                        "id": 33,
+                        "language_id": 10,
+                        "long_name": "komad",
+                        "short_name": "Kom",
+                        "unit": "pcs"
+                    },
+                    "product_variant_attributes": [],
+                    "product_variant_code": null,
+                    "product_variant_descriptions": [
+                        {
+                            "app_id": 4,
+                            "id": 512,
+                            "language_id": 10,
+                            "product_variant_id": 236,
+                            "tag": "name",
+                            "value": "Ementaler u panko prezli"
+                        },
+                        {
+                            "app_id": 4,
+                            "id": 511,
+                            "language_id": 10,
+                            "product_variant_id": 236,
+                            "tag": "short_description",
+                            "value": "Ementaler u panko prezli"
+                        }
+                    ],
+                    "product_variant_id": 236,
+                    "product_variant_image_url": "7cc51362-3eb0-4437-88ab-2dffa2e1df1d",
+                    "product_variant_images": [
+                        {
+                            "description": null,
+                            "image_url": "7cc51362-3eb0-4437-88ab-2dffa2e1df1d",
+                            "language_id": 10,
+                            "ordinal": 0,
+                            "product_variant_image_id": 103,
+                            "product_variant_image_translation_id": 163,
+                            "tag": "RIMAGE"
+                        }
+                    ],
+                    "product_variant_name": "Ementaler u panko prezli",
+                    "product_variant_price": {
+                        "app_id": 4,
+                        "bp": 0.0,
+                        "bv": 0.0,
+                        "currency_id": 11,
+                        "currency_sign": "RSD",
+                        "custom_1": null,
+                        "custom_2": null,
+                        "custom_3": null,
+                        "default_price": 430.0,
+                        "display_price": "430.00 RSD",
+                        "display_price_format": "{price} {sign}",
+                        "id": 91,
+                        "line_type": "R",
+                        "market_id": 9,
+                        "net_price": 358.33,
+                        "ordinal": null,
+                        "price": 430.0,
+                        "product_variant_id": 236,
+                        "valid_from": "2021-11-30T23:00:00.000000",
+                        "valid_until": null,
+                        "vat_id": 8
+                    },
+                    "product_variant_short_description": "Ementaler u panko prezli",
+                    "rmci_id": 100,
+                    "show_in_app": true
+                }
+            ],
+            "show_in_app": true
+        },
+        {
+            "available": true,
+            "available_from": null,
+            "available_until": null,
+            "category_id": 31,
+            "category_name": "Paste",
+            "items": [
+                {
+                    "app_id": 4,
+                    "available": true,
+                    "available_online": true,
+                    "barcode": null,
+                    "deleted": false,
+                    "measuring_unit": {
+                        "decimal": false,
+                        "description": "Piece",
+                        "id": 33,
+                        "language_id": 10,
+                        "long_name": "komad",
+                        "short_name": "Kom",
+                        "unit": "pcs"
+                    },
+                    "product_variant_attributes": [],
+                    "product_variant_code": null,
+                    "product_variant_descriptions": [
+                        {
+                            "app_id": 4,
+                            "id": 513,
+                            "language_id": 10,
+                            "product_variant_id": 237,
+                            "tag": "short_description",
+                            "value": "U sosu zapečena sa pršutom i čedar sirom"
+                        },
+                        {
+                            "app_id": 4,
+                            "id": 514,
+                            "language_id": 10,
+                            "product_variant_id": 237,
+                            "tag": "name",
+                            "value": "Toscana"
+                        }
+                    ],
+                    "product_variant_id": 237,
+                    "product_variant_image_url": "221facaf-033c-4afc-93a2-655ad84eab93",
+                    "product_variant_images": [
+                        {
+                            "description": null,
+                            "image_url": "221facaf-033c-4afc-93a2-655ad84eab93",
+                            "language_id": 10,
+                            "ordinal": 0,
+                            "product_variant_image_id": 104,
+                            "product_variant_image_translation_id": 164,
+                            "tag": "RIMAGE"
+                        }
+                    ],
+                    "product_variant_name": "Toscana",
+                    "product_variant_price": {
+                        "app_id": 4,
+                        "bp": 0.0,
+                        "bv": 0.0,
+                        "currency_id": 11,
+                        "currency_sign": "RSD",
+                        "custom_1": null,
+                        "custom_2": null,
+                        "custom_3": null,
+                        "default_price": 690.0,
+                        "display_price": "690.00 RSD",
+                        "display_price_format": "{price} {sign}",
+                        "id": 92,
+                        "line_type": "R",
+                        "market_id": 9,
+                        "net_price": 575.0,
+                        "ordinal": null,
+                        "price": 690.0,
+                        "product_variant_id": 237,
+                        "valid_from": "2021-11-30T23:00:00.000000",
+                        "valid_until": null,
+                        "vat_id": 8
+                    },
+                    "product_variant_short_description": "U sosu zapečena sa pršutom i čedar sirom",
+                    "rmci_id": 101,
+                    "show_in_app": true
+                }
+            ],
+            "show_in_app": true
+        },
+        {
+            "available": true,
+            "available_from": null,
+            "available_until": null,
+            "category_id": 32,
+            "category_name": "Pizza",
+            "items": [
+                {
+                    "app_id": 4,
+                    "available": true,
+                    "available_online": true,
+                    "barcode": null,
+                    "deleted": false,
+                    "measuring_unit": {
+                        "decimal": false,
+                        "description": "Piece",
+                        "id": 33,
+                        "language_id": 10,
+                        "long_name": "komad",
+                        "short_name": "Kom",
+                        "unit": "pcs"
+                    },
+                    "product_variant_attributes": [],
+                    "product_variant_code": null,
+                    "product_variant_descriptions": [
+                        {
+                            "app_id": 4,
+                            "id": 518,
+                            "language_id": 10,
+                            "product_variant_id": 239,
+                            "tag": "name",
+                            "value": "Pizza 5 vrsta sira"
+                        },
+                        {
+                            "app_id": 4,
+                            "id": 517,
+                            "language_id": 10,
+                            "product_variant_id": 239,
+                            "tag": "short_description",
+                            "value": "Pizza"
+                        }
+                    ],
+                    "product_variant_id": 239,
+                    "product_variant_image_url": "24270d8d-9d94-4a2e-bebe-02d4caa06998",
+                    "product_variant_images": [
+                        {
+                            "description": null,
+                            "image_url": "24270d8d-9d94-4a2e-bebe-02d4caa06998",
+                            "language_id": 10,
+                            "ordinal": 0,
+                            "product_variant_image_id": 106,
+                            "product_variant_image_translation_id": 166,
+                            "tag": "RIMAGE"
+                        }
+                    ],
+                    "product_variant_name": "Pizza 5 vrsta sira",
+                    "product_variant_price": {
+                        "app_id": 4,
+                        "bp": 0.0,
+                        "bv": 0.0,
+                        "currency_id": 11,
+                        "currency_sign": "RSD",
+                        "custom_1": null,
+                        "custom_2": null,
+                        "custom_3": null,
+                        "default_price": 800.0,
+                        "display_price": "800.00 RSD",
+                        "display_price_format": "{price} {sign}",
+                        "id": 94,
+                        "line_type": "R",
+                        "market_id": 9,
+                        "net_price": 666.67,
+                        "ordinal": null,
+                        "price": 800.0,
+                        "product_variant_id": 239,
+                        "valid_from": "2021-11-30T23:00:00.000000",
+                        "valid_until": null,
+                        "vat_id": 8
+                    },
+                    "product_variant_short_description": "Pizza",
+                    "rmci_id": 102,
+                    "show_in_app": true
+                },
+                {
+                    "app_id": 4,
+                    "available": true,
+                    "available_online": true,
+                    "barcode": null,
+                    "deleted": false,
+                    "measuring_unit": {
+                        "decimal": false,
+                        "description": "Piece",
+                        "id": 33,
+                        "language_id": 10,
+                        "long_name": "komad",
+                        "short_name": "Kom",
+                        "unit": "pcs"
+                    },
+                    "product_variant_attributes": [],
+                    "product_variant_code": null,
+                    "product_variant_descriptions": [
+                        {
+                            "app_id": 4,
+                            "id": 515,
+                            "language_id": 10,
+                            "product_variant_id": 238,
+                            "tag": "short_description",
+                            "value": "Domaći burger sos, kis krastavac, ajzberg, burger meso"
+                        },
+                        {
+                            "app_id": 4,
+                            "id": 516,
+                            "language_id": 10,
+                            "product_variant_id": 238,
+                            "tag": "name",
+                            "value": "Burger pizza"
+                        }
+                    ],
+                    "product_variant_id": 238,
+                    "product_variant_image_url": "521ce792-990c-437c-83de-0a417d5d4681",
+                    "product_variant_images": [
+                        {
+                            "description": null,
+                            "image_url": "521ce792-990c-437c-83de-0a417d5d4681",
+                            "language_id": 10,
+                            "ordinal": 0,
+                            "product_variant_image_id": 105,
+                            "product_variant_image_translation_id": 165,
+                            "tag": "RIMAGE"
+                        }
+                    ],
+                    "product_variant_name": "Burger pizza",
+                    "product_variant_price": {
+                        "app_id": 4,
+                        "bp": 0.0,
+                        "bv": 0.0,
+                        "currency_id": 11,
+                        "currency_sign": "RSD",
+                        "custom_1": null,
+                        "custom_2": null,
+                        "custom_3": null,
+                        "default_price": 890.0,
+                        "display_price": "890.00 RSD",
+                        "display_price_format": "{price} {sign}",
+                        "id": 93,
+                        "line_type": "R",
+                        "market_id": 9,
+                        "net_price": 741.67,
+                        "ordinal": null,
+                        "price": 890.0,
+                        "product_variant_id": 238,
+                        "valid_from": "2021-11-30T23:00:00.000000",
+                        "valid_until": null,
+                        "vat_id": 8
+                    },
+                    "product_variant_short_description": "Domaći burger sos, kis krastavac, ajzberg, burger meso",
+                    "rmci_id": 103,
+                    "show_in_app": true
+                }
+            ],
+            "show_in_app": true
+        },
+        {
+            "available": true,
+            "available_from": null,
+            "available_until": null,
+            "category_id": 33,
+            "category_name": "Kutak za gurmane",
+            "items": [
+                {
+                    "app_id": 4,
+                    "available": true,
+                    "available_online": true,
+                    "barcode": null,
+                    "deleted": false,
+                    "measuring_unit": {
+                        "decimal": false,
+                        "description": "Piece",
+                        "id": 33,
+                        "language_id": 10,
+                        "long_name": "komad",
+                        "short_name": "Kom",
+                        "unit": "pcs"
+                    },
+                    "product_variant_attributes": [],
+                    "product_variant_code": null,
+                    "product_variant_descriptions": [
+                        {
+                            "app_id": 4,
+                            "id": 522,
+                            "language_id": 10,
+                            "product_variant_id": 241,
+                            "tag": "name",
+                            "value": "Biftek u wok-u"
+                        },
+                        {
+                            "app_id": 4,
+                            "id": 521,
+                            "language_id": 10,
+                            "product_variant_id": 241,
+                            "tag": "short_description",
+                            "value": "Biftek sa povrćem u soja sosu sa pirinčem"
+                        }
+                    ],
+                    "product_variant_id": 241,
+                    "product_variant_image_url": "0c289788-4da9-417b-8e8e-816e986f07e2",
+                    "product_variant_images": [
+                        {
+                            "description": null,
+                            "image_url": "0c289788-4da9-417b-8e8e-816e986f07e2",
+                            "language_id": 10,
+                            "ordinal": 0,
+                            "product_variant_image_id": 108,
+                            "product_variant_image_translation_id": 168,
+                            "tag": "RIMAGE"
+                        }
+                    ],
+                    "product_variant_name": "Biftek u wok-u",
+                    "product_variant_price": {
+                        "app_id": 4,
+                        "bp": 0.0,
+                        "bv": 0.0,
+                        "currency_id": 11,
+                        "currency_sign": "RSD",
+                        "custom_1": null,
+                        "custom_2": null,
+                        "custom_3": null,
+                        "default_price": 890.0,
+                        "display_price": "890.00 RSD",
+                        "display_price_format": "{price} {sign}",
+                        "id": 96,
+                        "line_type": "R",
+                        "market_id": 9,
+                        "net_price": 741.67,
+                        "ordinal": null,
+                        "price": 890.0,
+                        "product_variant_id": 241,
+                        "valid_from": "2021-11-30T23:00:00.000000",
+                        "valid_until": null,
+                        "vat_id": 8
+                    },
+                    "product_variant_short_description": "Biftek sa povrćem u soja sosu sa pirinčem",
+                    "rmci_id": 105,
+                    "show_in_app": true
+                }
+            ],
+            "show_in_app": true
+        }
+    ]
+}

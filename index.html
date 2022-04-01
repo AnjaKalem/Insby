@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Fetch Vezba The Code Train</title>
+
+    <style>
+
+        .display_none {
+                    display: none;
+                }
+        
+        #profile_picture {
+            width: 30px;
+            height: 30px;
+            border: 1px solid black;
+        }
+
+        /********************* LOGIN FORM *************************/
+
+        #login_form {
+            position: fixed;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            padding: 2em 0;
+            flex-flow: row;
+            width: 485px;
+            background-color: white;
+            border-radius: 40px;
+            -webkit-box-shadow: 0px 0px 53px 7px rgba(0,0,0,0.04);
+            -moz-box-shadow: 0px 0px 53px 7px rgba(0,0,0,0.04);
+            box-shadow: 0px 0px 53px 7px rgba(0,0,0,0.04);
+            z-index: 2;
+            font-family: 'Epilogue', sans-serif;
+        }
+
+        #exit_form {
+            display: inline-block;
+            background: url(icon-iks.svg) no-repeat;
+            background-size: contain;
+            width: 20px;
+            height: 20px;
+            position: relative;
+            bottom: 3.575em;
+            left: 6.5em;
+        }
+
+
+        .login {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: end;
+        }
+
+        input[type=text], input[type=password], input[type=submit] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 40px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            background-color: #4d7bf4;
+            color: white;
+            font-size: 16px;
+        }
+
+        input[type=submit]:hover {
+            background-color: #19182f;
+        }
+
+        .left {
+            padding-left: 3em;
+        }
+
+        .logo {
+            padding: 1.275em 0 0 1.875em;
+        }
+
+        .login_button {
+            background-color: #4d7bf4;
+        }
+
+        .login_button:hover {
+            background-color: #19182f;
+        }
+
+        #footer {
+            display: flex;
+            width: 100%;
+            height: 5vh;
+            position: fixed;
+            bottom: 0;
+            background-color: #19182f;
+            font-family: 'Epilogue', sans-serif;
+            font-size: 8pt;
+            color: #4b5270;
+            margin: none;
+            padding-left: 8em;
+            align-items: center;
+        }
+
+        #opaque {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background-color: black;
+                filter: alpha(opacity=30);
+                opacity: 0.3;
+            }
+
+            @media screen and (max-width: 600px) {
+            .logo {
+                padding: 0.875em;
+                font-size: 2.25em;
+            }
+
+            .login_button {
+                width: 90px;
+                height: 44px;
+                top: 1.875em;
+            }
+
+            #login_form {
+                width: 285px;
+            }
+
+            #exit_form {
+                width: 12px;
+                bottom: 12.275em;
+                left: 9.5em;
+            }
+            
+            .login {
+                grid-template-columns: 1fr;
+            }
+
+            .left {
+                padding-left: 0;
+                margin-top: 1em;
+            }
+
+            .menu_wrapper {
+                width: 100%;
+                margin-left: 0;
+                margin-bottom: 3em;
+            }
+
+            .product_wrapper {
+                width: 85%;
+                height: 200px;
+            }
+
+            .product_name {
+                font-size: 16px;
+            }
+
+            .product_price {
+                font-size: 18px;
+            }
+        }
+          
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <p class="logo">Ole!</p>
+        <button onclick="openLoginForm()" id="login" class="login_button" value="Login">Login</button>
+    </header>
+
+    <div id="login_form" class="display_none">
+        <form class="login" action="">
+           <div class="left">
+            <div>
+                <!-- <label for="username">Username</label> -->
+                <input id="username" type="text" placeholder="username">
+            </div>
+            <div>
+                <!-- <label for="password">Password</label> -->
+                <input id="password" type="password" placeholder="password">
+            </div>
+            <div>
+               <!--  <label for="password">Confirm password</label> -->
+                <input type="password" placeholder="confirm password">
+            </div>
+           </div>
+            <div class="right">
+                <div id="exit_form"></div>
+                <div>
+                    <input type="checkbox" name="" id="remember">
+                    <label for="remember" style="font-size: 14px;">Remember me</label>
+                </div>
+                <div>
+                    <input id="submit" type="submit" value="SignUp/Login">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="opaque" class="display_none"></div>
+
+    <footer>
+        <div id="footer"><p style="margin: 0 0;">&copy; Copyright Ole Restaurant 2022</p></div>
+    </footer>
+
+    <script> 
+
+           var token 
+           var app_id
+
+            getToken().catch( error => {
+                console.log('Error: File not found')
+                console.log(error) })
+
+            async function getToken() {
+                var myHeaders = new Headers();
+                myHeaders.append("Authorization", "Basic clhMSFRjN09TbGxSQUZRSWFHb2Y2NjBWODBhM2I5TGVNVmJIa0N5SFVQWTVEdlYyZjI5RnkxcHNYaFFNZHRqdW9jSmVZY01TUHhTWWxrc0dIVEw1TTZZc2FmYk53MzROZXhxWHFmclNkOlNubFpIOGZNczBINDhTMHNMY3VPMDVXTW9IOEd2TlBna282UnFTZnZaQ1gya3AzUDJxMDU4M1FMcVpXdzkwZXlSa1hpd3NzNXBqRnFoTzlMbWpkMWxXM2ZISFFkcnplM0hKcmxVQ3NKcDZo");
+                myHeaders.append("Content-Type", "application/json");
+            
+                var raw = JSON.stringify({
+                        "uuid": "cool-workstation",
+                        "uuidOS": "Android"
+                        });
+
+                var options = {
+                    method: 'POST',
+                    body: raw,  
+                    headers: myHeaders,
+                    redirect: 'follow'
+                }
+
+                const response = await fetch('https://dev-mrp.insby.tech/api/init/app', options)
+                const data = await response.text()
+                const json = await JSON.parse(data)
+
+                app_id = json.data.app_id
+                token = json.data.token
+
+                getMenu()
+                
+            } 
+
+            async function getMenu() {
+                let bearerToken = 'Bearer ' + token
+
+                var getHeaders = new Headers();
+                getHeaders.append("Authorization", bearerToken)
+
+                var requestOptions = {
+                    method: 'GET',
+                    headers: getHeaders,
+                    redirect: 'follow'
+                    };
+
+                const res = await fetch("https://dev-mrp.insby.tech/api/session/restaurant/menu?appId=4", requestOptions)
+                const res_txt = await res.text()
+                const menu = await JSON.parse(res_txt) 
+
+                const meni = menu.data
+
+                // kreira meni wrapper
+                let meni_wrapper = document.createElement('div')
+                meni_wrapper.setAttribute('class', 'menu_wrapper')
+                document.body.append(meni_wrapper)
+
+
+                for(category in meni) {
+
+                    let arrow_right = document.createElement('span')
+                    arrow_right.setAttribute('class', 'arrow_right')
+
+                    // kreira kategoriju
+                    let kategorija = document.createElement('button')
+                    kategorija.setAttribute('class', 'kategorija')
+                    kategorija.innerHTML = `${meni[category].category_name}` 
+                    meni_wrapper.append(arrow_right)
+                    meni_wrapper.append(kategorija)
+    
+                    // click kategorija
+                    kategorija.addEventListener('click', function() {
+                          
+                            let ktg = kategorija.innerHTML.replace(/\s/g, '_')
+                            let this_category_products = document.getElementsByClassName(ktg)
+
+                            for(let i = 0; i < this_category_products.length; i++) {
+
+                                this_category_products[i].classList.toggle('display_none')
+                              
+                            } 
+
+                            if(arrow_right.classList.contains('arrow_right')) {
+                            arrow_right.classList.remove('arrow_right')
+                            arrow_right.classList.add('arrow_down')
+                            } else {
+                                arrow_right.classList.remove('arrow_down')
+                                arrow_right.classList.add('arrow_right')
+                            }
+                            }) 
+                            
+                    // click na arrow
+                    arrow_right.addEventListener('click', function() {
+                          
+                                        let ktg = kategorija.innerHTML.replace(/\s/g, '_')
+                                        let this_category_products = document.getElementsByClassName(ktg)
+
+                                        for(let i = 0; i < this_category_products.length; i++) {
+
+                                            this_category_products[i].classList.toggle('display_none')
+                                            
+                                        } 
+
+                                        if(arrow_right.classList.contains('arrow_right')) {
+                                        arrow_right.classList.remove('arrow_right')
+                                        arrow_right.classList.add('arrow_down')
+                                        } else {
+                                            arrow_right.classList.remove('arrow_down')
+                                            arrow_right.classList.add('arrow_right')
+                                        }
+                                        })
+
+                    for(item in meni[category].items) {
+
+                        // odredjuje kategoriju proizvoda
+                        let product_category = meni[category].category_name.replace(/\s/g, '_')
+                      
+                        // kreira DOM za proizvod
+                        let product_wrapper = document.createElement('div')
+
+                        // dodaje klase proizvodu
+                        product_wrapper.classList.add('product_wrapper', product_category, 'display_none') 
+                        document.body.append(product_wrapper)
+
+                        let text_wrapper = document.createElement('div') 
+                        text_wrapper.setAttribute('class', 'text_wrapper')
+                        document.body.append(text_wrapper)
+
+
+                        let proizvod = document.createElement('h3')
+                        proizvod.setAttribute('class', 'product_name')
+                        proizvod.innerHTML = `${meni[category].items[item].product_variant_name}`
+
+                        let cena = document.createElement('h4')
+                        cena.setAttribute('class', 'product_price')
+                        cena.innerHTML = `${meni[category].items[item].product_variant_price.display_price}`
+
+                        let slika = document.createElement('div')
+                        slika.setAttribute("class", "product_image");
+                        let url = 'https://files.insby.tech/tap-dev-4/' + `${meni[category].items[item].product_variant_images[0].image_url}`
+                        slika.style.backgroundImage = "url(" + url + ")"
+
+                        
+                        product_wrapper.append(slika)
+                        product_wrapper.append(text_wrapper)
+                        text_wrapper.append(proizvod)
+                        text_wrapper.append(cena)
+                        meni_wrapper.append(product_wrapper)
+                    
+                    }
+                }
+            }
+            
+            function openLoginForm() {
+                
+                let opaque = document.getElementById('opaque')
+                let login_form =  document.getElementById('login_form')
+                opaque.classList.toggle('display_none')
+                login_form.classList.toggle('display_none')
+
+            }
+            
+            document.getElementById('exit_form').addEventListener('click', function() {
+                let opaque = document.getElementById('opaque')
+                opaque.classList.add('display_none')
+                login_form.classList.add('display_none')
+            })
+            
+
+    </script>
+</body>
+</html>
